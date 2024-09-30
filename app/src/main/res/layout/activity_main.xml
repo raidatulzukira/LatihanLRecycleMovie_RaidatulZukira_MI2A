@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:padding="30sp"
+            android:text="Welcome to Zukira's Mobile App MI 2A"
+            android:textAlignment="center"
+            android:textColor="#A60139"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnClickHere"
+            android:layout_height="60dp"
+            android:layout_marginTop="50sp"
+            android:backgroundTint="#F61C8D"
+            android:text="Click Here!"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnListView"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F61C8D"
+            android:text="List View "
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3sp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnRecycleView"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3sp"
+            android:backgroundTint="#F61C8D"
+            android:text="Recycle View"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnRecycleBuah"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3sp"
+            android:backgroundTint="#F61C8D"
+            android:textSize="16sp"
+            android:text="Recycle buah" />
+
+        <Button
+            android:id="@+id/btnMovie"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3sp"
+            android:backgroundTint="#F61C8D"
+            android:textSize="16sp"
+            android:text="Recycle Movie" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
